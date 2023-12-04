@@ -1,0 +1,134 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(earth.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Apply a background color to the body */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(earth.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+footer{
+    background-image: url(earth.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Style the header section */
+header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-weight: bold;
+}
+
+/* Style the main content section */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    width:auto;
+    margin-top: 20px;
+}
+
+/* Style the footer section */
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Add some spacing for better readability */
+p {
+    margin: 15px 0;
+}
+
+/* Styling links in the footer */
+footer a {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Copyright text */
+footer p {
+    font-size: 14px;
+}
+
+/* Add a hover effect for links */
+a:hover {
+    color: #3498db;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Additional styles can be added as needed */
+
